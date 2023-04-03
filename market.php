@@ -12,25 +12,22 @@
 <body>
     
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="market.php">Market</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
+            <li class="nav-item">
+                <a class="nav-link" href="market.php" class="sr-only">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="xander.php" class="sr-only">Catálogo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" class="sr-only">Contáctanos</a>
+            </li>
         </ul>
     </div>
     </nav>
@@ -45,13 +42,17 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img class="d-block w-100" src="https://th.bing.com/th/id/OIP.ic8djfEQz6pYtcgVl6sQ7QHaEK?pid=ImgDet&rs=1" alt="First slide">
+            <img class="d-block w-100" src="Assets/img/Banner-1.png" alt="Logo Lacoste">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lacoste</h5>
+                <p>Productos Lacoste</p>
+            </div>
         </div>
         <div class="carousel-item">
         <img class="d-block w-100" src="https://th.bing.com/th/id/R.45e8f0a77ff7ca7ae1240a96e8177726?rik=wI6fcS8a6tB5MA&pid=ImgRaw&r=0" alt="Second slide">
         </div>
         <div class="carousel-item">
-        <img class="d-block w-100" src="https://s1.1zoom.me/big3/876/373381-sepik.jpg" alt="Third slide">
+        <img class="d-block w-100" src="https://kosterfashion.nl/wp-content/uploads/2023/01/header-lacoste-merk-heren-dames-koster-fashion.jpg" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
