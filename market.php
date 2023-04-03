@@ -158,7 +158,7 @@
 </body>
 <footer class="blog-footer">
       <center>
-        <p>Página hecha por <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="">@Carlos</a>.</p>
+        <p>Página hecha por <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="">@Rafael</a>.</p>
         <p>
             Hecha para información
         </p>
