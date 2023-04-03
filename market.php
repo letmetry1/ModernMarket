@@ -23,7 +23,7 @@
                 <a class="nav-link" href="market.php" class="sr-only">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="xander.php" class="sr-only">Catálogo</a>
+                <a class="nav-link" href="catalogo.php" class="sr-only">Catálogo</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" class="sr-only">Contáctanos</a>
