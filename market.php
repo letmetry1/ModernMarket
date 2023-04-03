@@ -45,14 +45,22 @@
             <img class="d-block w-100" src="Assets/img/Banner-1.png" alt="Logo Lacoste">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Lacoste</h5>
-                <p>Productos Lacoste</p>
+                <p>La vida es un hermoso deporte</p>
             </div>
         </div>
         <div class="carousel-item">
-        <img class="d-block w-100" src="https://th.bing.com/th/id/R.45e8f0a77ff7ca7ae1240a96e8177726?rik=wI6fcS8a6tB5MA&pid=ImgRaw&r=0" alt="Second slide">
+            <img class="d-block w-100" src="Assets/img/Banner-2.png" alt="Promoción Lacoste">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lacoste</h5>
+                <p>Variedad de prendas Lacoste</p>
+            </div>
         </div>
         <div class="carousel-item">
-        <img class="d-block w-100" src="https://kosterfashion.nl/wp-content/uploads/2023/01/header-lacoste-merk-heren-dames-koster-fashion.jpg" alt="Third slide">
+            <img class="d-block w-100" src="Assets/img/Banner-3.png" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lacoste</h5>
+                <p>Polos 100% algodón</p>
+            </div>
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
