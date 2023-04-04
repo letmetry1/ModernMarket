@@ -6,33 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Market</title>
-    <link rel="shortcut icon" href="Assets/img/Market.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/img/icon.png" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
     
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.php">Market</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php" class="sr-only">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="catalogo.php" class="sr-only">Catálogo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" class="sr-only">Contáctanos</a>
-                    </li>
-                </ul>
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 col-lg-2">
+                    <div class="header__logo">
+                        <a href="index.php"><img src="Assets/img/logo/Modernizing.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <center>
+                        <nav class="header__menu">
+                            <ul>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="catalogo.php">Catálogo</a></li>
+                                <li><a href="contactanos.php">Contáctanos</a></li>
+                            </ul>
+                        </nav>
+                    </center>
+                </div>
+
             </div>
-        </nav>
+        </div>
     </header>
 
     <section>
