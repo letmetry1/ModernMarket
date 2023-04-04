@@ -6,15 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Market</title>
-    <link rel="shortcut icon" href="Assets/img/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/img/logo/icon.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
     
+    <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
+
 </head>
 
 <body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- Fin Page Preloder -->
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__close">+</div>
+        <div class="offcanvas__logo">
+            <a href="index.php"><img src="Assets/img/logo/icon.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+    <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
     <header class="header">
@@ -36,10 +61,13 @@
                         </nav>
                     </center>
                 </div>
-
+            </div>
+            <div class="canvas__open">
+                <i class="fa fa-bars" style="color: #ffffff;"></i>
             </div>
         </div>
     </header>
+    <!-- Header Section End -->
 
     <section>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -59,7 +87,7 @@
                 <div class="carousel-item">
                     <img class="d-block w-100" src="Assets/img/sliders/Banner-2.png" alt="Promoción Lacoste">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Lacoste</h5>
+                        <h5 style="color:white;">Lacoste</h5>
                         <p>Variedad de prendas Lacoste</p>
                     </div>
                 </div>
@@ -93,7 +121,7 @@
                     <div class="card-body d-flex flex-column align-items-start">
                         <strong class="d-inline-block mb-2 text-success">Lacoste</strong>
                         <h3 class="mb-0">
-                            <a class="text-dark" href="#">Polo Simple</a>
+                            <a class="text-dark" href="catalogo.php">Polo Simple</a>
                         </h3>
                         <br>
                         <p class="card-text mb-auto">Materiales de mejor calidad, resistente duradero y cómodos.</p>
@@ -106,7 +134,7 @@
                     <div class="card-body d-flex flex-column align-items-start">
                         <strong class="d-inline-block mb-2 text-success">Lacoste</strong>
                         <h3 class="mb-0">
-                            <a class="text-dark" href="#">Polo Piqué</a>
+                            <a class="text-dark" href="catalogo.php">Polo Piqué</a>
                         </h3>
                         <br>
                         <p class="card-text mb-auto">Polo Piqué de algodón, cálido y cómodo. Para looks cotidianos</p>
@@ -124,6 +152,7 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Nueva prenda en mano. <span class="text-muted">Nuevo estilo de vestir.</span></h2>
+                <br>
                 <p class="lead">Versátiles y fáciles de combinar, ya que puede usarlos tanto para ocasiones formales como informales.</p>
             </div>
             <div class="col-md-5">
@@ -136,6 +165,7 @@
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">No llamamos la atención. <span class="text-muted">La elegencia se mira por sí misma.</span></h2>
+                <br>
                 <p class="lead">Hecho con algodón piqué, un tejido suave y transpirable que se adapta a su cuerpo y le brinda frescura y confort.</p>
             </div>
             <div class="col-md-5 order-md-1">
@@ -156,13 +186,26 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Js Plugins -->
+    <script src="Assets/js/bootstrap.min.js"></script>
+    <script src="Assets/js/jquery-3.3.1.min.js"></script>
+    <script src="Assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="Assets/js/jquery-ui.min.js"></script>
+    <script src="Assets/js/mixitup.min.js"></script>
+    <script src="Assets/js/jquery.countdown.min.js"></script>
+    <script src="Assets/js/jquery.slicknav.js"></script>
+    <script src="Assets/js/owl.carousel.min.js"></script>
+    <script src="Assets/js/jquery.nicescroll.min.js"></script>
+    <script src="Assets/js/main.js"></script>
 </body>
 <footer class="blog-footer">
-    <center>
-        <p>Página hecha por <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="">@MD</a>.</p>
+<center>
+        <p>Página hecha a través de <a href="https://getbootstrap.com/">Bootstrap</a> por el grupo <strong>Modernizing Peru</strong>.</p>
         <p>
             Hecha para información
         </p>
+        <br>
     </center>
 </footer>
 

@@ -16,7 +16,7 @@ Created: Colorib
     --------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
-        $("#preloder").delay(200).fadeOut("slow");
+        $("#preloder").delay(120).fadeOut("slow");
 
         /*------------------
             Product filter

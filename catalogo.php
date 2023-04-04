@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="Assets/img/logo/icon.png" type="image/x-icon">
 
 
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
@@ -25,6 +24,22 @@
 </head>
 
 <body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- Fin Page Preloder -->
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__close">+</div>
+        <div class="offcanvas__logo">
+            <a href="index.php"><img src="Assets/img/logo/icon.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+    <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
     <header class="header">
@@ -46,10 +61,13 @@
                         </nav>
                     </center>
                 </div>
-
+            </div>
+            <div class="canvas__open">
+                <i class="fa fa-bars" style="color: #ffffff;"></i>
             </div>
         </div>
     </header>
+    <!-- Header Section End -->
 
 
     <section class="product spad">
