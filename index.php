@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Market</title>
-    <link rel="shortcut icon" href="Assets/img/Market2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/img/Market.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    
 </head>
 
 <body>
@@ -44,21 +44,21 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="Assets/img/Banner-1.png" alt="Logo Lacoste">
+                    <img class="d-block w-100" src="Assets/img/sliders/Banner-1.png" alt="Logo Lacoste">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Lacoste</h5>
                         <p>La vida es un hermoso deporte</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="Assets/img/Banner-2.png" alt="Promoción Lacoste">
+                    <img class="d-block w-100" src="Assets/img/sliders/Banner-2.png" alt="Promoción Lacoste">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Lacoste</h5>
                         <p>Variedad de prendas Lacoste</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="Assets/img/Banner-3.png" alt="Third slide">
+                    <img class="d-block w-100" src="Assets/img/sliders/Banner-3.png" alt="Third slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Lacoste</h5>
                         <p>Polos 100% algodón</p>
