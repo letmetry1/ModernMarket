@@ -23,14 +23,7 @@
     <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
 </head>
 
-<body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-    <!-- Fin Page Preloder -->
-
-    <?php include_once('./View/header.php'); ?>    
+    <?php require('./view/header.php'); ?>    
 
 
     <section class="product spad">
@@ -171,6 +164,6 @@
     <script src="Assets/js/main.js"></script>
 </body>
 
-<?php include_once('./View/footer.php'); ?>    
+<?php require('view/footer.php'); ?>    
 
 </html>
