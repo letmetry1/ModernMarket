@@ -1,5 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Market</title>
+    <link rel="shortcut icon" href="Assets/img/logo/icon.png" type="image/x-icon">
+
+    
+    <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
+
+</head>
 <body>
-    <!-- Page Preloder -->
+<!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
